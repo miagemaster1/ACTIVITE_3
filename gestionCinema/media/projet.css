@@ -1,0 +1,244 @@
+/* Feuille de style pour cours, devoirs et projets en ligne */
+/* Auteur : Nicolas Royackkers                              */ 
+
+/* style par défaut pour tout le corps de la page */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 85%;
+	line-height: 1.6em;
+	text-align: justify;
+	padding: 0 3em 0 3em;
+	width: 85%;
+	max-width: 60em;
+	margin: auto;
+	margin-right: auto;
+}
+
+/* titre de page */
+h1 {
+    font-family: "Times New Roman", Times, serif; 
+	font-size: 200%;
+	text-align: center;
+	margin-top: 1.2em;
+	margin-bottom: 1.8em;
+}
+
+/* titre de niveau 2 */
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 160%;
+	margin-top: 1.4em;
+}
+
+/* titre de niveau 3 */
+h3 {
+	font-size: 120%;
+    margin-top: 1.2em;
+}
+
+/* lien */ 
+a { 
+    text-decoration: none;
+    padding-top: 0.1em;
+    padding-bottom: 0.2em;
+}
+
+a:hover { background-color: #E1F7FF;}
+
+/* listes */
+ul { margin-bottom: 1.5em; }
+li { margin-bottom: 0.5em; }
+.toc dl { margin-top: 0.5em; }
+
+/* texte préformatté et code */
+pre { 
+    color: black;
+    background-color: #EBEBEB;
+    padding: 0.5em;
+}
+
+/* barre horizontale 
+hr { display: none; }*/
+
+/* image et légende */
+.mediaobject {
+	border: none;
+    margin-top: 2em;
+    text-align: center;
+}
+
+img { border:none; }
+
+.caption { 
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2.5em;
+    font-style: italic;
+}
+
+/* tableau */
+table {
+        width: 75%;
+        margin: auto;
+        padding: 0;
+        border-width: 2px;
+        border-collapse: collapse; 
+}
+
+td, th {
+    padding: 0.5em;
+    border-width: 1px;
+}
+
+th { border-bottom-width: 2px; }
+
+/* zones de navigation en haut et bas de page */
+.navheader table { 
+    width: 100%;
+    padding-top: 0.2em;
+    padding-bottom: 0.4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-collapse: separate;
+}
+
+.navfooter table { 
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-collapse: separate;
+}
+
+.navheader table { margin-bottom: 1.5em; }
+.navfooter table { margin-top: 2.5em; }
+.navheader table, .navfooter table { background-color: #F9F9D0; }
+.navheader td, .navfooter td { margin:0; padding-top:0; padding-bottom:0; }
+
+
+/* auteur et données de publication */
+.author, .releaseinfo, .pubdate, .orgname {
+        width: 100%;
+        text-align: center;
+}
+
+div.author { margin-bottom: 1.8em;}
+
+/* historique des versions */
+.revhistory table {
+        width: 75%;
+        margin-top: 2.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 1px #AAA;
+        color: black;
+        background-color: #FAFAFA;
+}
+
+.revhistory td { border: solid 1px #AAA; }
+
+/* résumé */
+.abstract { margin-top: 2.5em; }
+
+/* tables des matières et sommaires */
+.toc {
+        margin-top: 1.5em;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        padding-left: 1.5em;
+        color: black;
+        background-color: #F9F9D0;
+}
+
+/* notes, astuces et avertissements */
+.note, .tip, .remark, .warning, .caution { 
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 0;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    border-style: dashed; 
+}
+
+.note { border-color: #FFB71C; }
+.tip { border-color: #61AE52; }
+.warning, .caution { border-color: #DA0000; }
+
+/* emphase */
+em, .emphasis { 
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* éléments de langages */
+.sgmltag-element { color: #851729; }
+.sgmltag-attribute, .property { color: #14560C; }
+.sgmltag-attvalue, .literal { color: #494949; }
+
+/* terme de définition */
+.term { font-weight: bold; }
+
+/* touches et combos */
+.keycap
+{   
+    padding: 0px 2px;
+	border: 3px outset #F3F3F3;
+	color: black;
+	background-color: #F3F3F3;
+}
+
+
+a.button{
+	/*background:url(img/button.gif);*/
+    display:block;
+    float:left;
+    margin:1px 7px 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    font-size:12px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:2px 9px 3px 6px; /* Links */
+}
+.desc{
+    font-size: 70%;
+    line-height: 1.6em;
+    text-align: justify;
+}
+.publication{
+    border-collapse: collapse;
+    border-width: 2px;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+.search{
+    border-collapse: collapse;
+    border-width: 2px;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+.tt_r21{
+    color: #CC0000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 26px;
+    vertical-align: middle;		
+}
+.tt_r22 {
+    color: #CC0000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    line-height: 1;
+}
+.lighten {
+    color: #888888 !important;
+    width: 30px;
+}
+.trier{
+	text-align: left;
+}
